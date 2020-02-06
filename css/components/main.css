@@ -75,6 +75,7 @@
 
 .product-image i {
   color: #dd9d09;
+  text-shadow: 1px 1px 10px #014c6944;
   transition: 0.4s;
 }
 .product-image i:hover {
@@ -85,7 +86,7 @@
 .product-name {
   height: 10%;
   color: #dd9d09;
-  text-shadow: 2px 2px 10px #014c6933;
+  text-shadow: 1px 1px 10px #014c6944;
 }
 
 .product-name h4 {

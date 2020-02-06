@@ -15,6 +15,7 @@
   color: #eaf8bf;
   margin-left: 50px;
   text-shadow: 2px 2px 10px #014c6977;
+  position: relative;
 }
 .logo .strong {
   font-size: 48px;
