@@ -50,10 +50,10 @@ li {
 }
 
 .container {
-  width: 85vw;
+  width: 1900px;
   height: 90vh;
   background-image: linear-gradient(#8ab0c5, #a9cadb);
-  box-shadow: 2px 2px 24px #333;
+  box-shadow: 2px 2px 24px rgba(51, 51, 51, 0.452);
   border-radius: 16px;
   display: flex;
   flex-direction: column;

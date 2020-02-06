@@ -2,4 +2,17 @@
   height: 6%;
   border-top: 3px solid #e8e7e5cc;
   z-index: 1;
+  justify-content: space-evenly;
+  color: #e8e7e5;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer a {
+  color: #365769;
+  transition: 0.4s;
+}
+
+.footer a:hover {
+  color: #e8e7e5;
 }
