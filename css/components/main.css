@@ -1,8 +1,112 @@
 .main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  z-index: 10;
+}
 
+.main:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../../images2/background-wood.jpg');
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.main-description {
+  width: 25%;
+  height: 100%;
+  color: #e8e7e5;
+  z-index: 10;
+}
+
+.main-description .empty {
+  height: 25%;
+}
+
+.main-description ul {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 200px;
+}
+
+.main-description li {
+  margin: 10px 0 10px 10px;
+}
+.main-description h3 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-description span {
+  color: #006992;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+
+.main-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.product-image {
+  height: 85%;
 }
 
 .product-image img {
-  width: 500px;
+  height: 100%;
+}
+
+.product-name {
+  height: 10%;
+  color: #dd9d09;
+}
+
+.product-name h4 {
+  font-size: 32px;
+}
+
+.product-options {
+  color: #e8e7e5;
+  font-size: 24px;
+  height: 5%;
+}
+
+.main-to-cart {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #e8e7e5;
+  z-index: 10;
+}
+
+.main-to-cart a {
+  margin: 40px;
+}
+
+.main-to-cart .empty {
+  height: 20%;
+}
+
+.main-to-cart .to-cart-container {
+  width: 50%;
   height: 100%;
 }

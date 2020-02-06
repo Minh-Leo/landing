@@ -1,63 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>My landing page</title>
-  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <!-- We need this line below for responsiveness! -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div class="container">
-  <!-- code a Hero / Banner section -->
-    <div class="header">
-      <div class="logo">
-        <span>ScandiHome<strong>.</strong></span>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My landing page</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon" />
+    <!-- We need this line below for responsiveness! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      <nav class="nav-group">
-        <a class="round-btn menu">
-          <i class=""></i>
-          <span>Menu</span>
-        </a>
-        <a class="round-btn catalog">
-          <i class=""></i>
-          <span>Catalog</span>
-        </a>
-      </nav>
-
-      <nav class="cart-group">
-        <a class="round-btn search">
-          <i class=""></i>
-          <span>Search</span>
-        </a>
-        <a class="normal-btn cart">
-          <i class=""></i>
-          <span>Cart</span>
-        </a>
-      </nav>
-    </div>
-
-    <!-- code a "How it works" section -->
-    <div class="main">
-      <div class="main-description"></div>
-
-      <div class="main-image">
-        <div class="product-image">
-          <img src="/images2/stool-teal_01.jpg" alt="stool product">
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,600|Ubuntu:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- code a Hero / Banner section -->
+      <div class="header shadow">
+        <div class="logo">
+          <span>Scandi<strong>Home</strong>.</span>
         </div>
-        <div class="product-name">Ikea-looked-a-like Stool</div>
-        <div class="product-options"></div>
+
+        <nav class="nav-group">
+          <a class="round-btn menu">
+            <div class="center shadow-light"><i class="fab fa-buffer"></i></div>
+            <span>Menu</span>
+          </a>
+          <a class="round-btn catalog">
+            <div class="center shadow-light">
+              <i class="fas fa-expand"></i>
+            </div>
+            <span>Catalog</span>
+          </a>
+        </nav>
+
+        <nav class="cart-group">
+          <a class="round-btn search">
+            <div class="center shadow-light">
+              <i class="fas fa-search"></i>
+            </div>
+            <span>Search</span>
+          </a>
+          <a class="normal-btn cart center">
+            <div class="center shadow-light">
+              <i class="fas fa-cart-arrow-down"></i>
+            </div>
+            <span>Cart</span>
+          </a>
+        </nav>
       </div>
 
-      <div class="main-to-cart"></div>
+      <!-- code a "How it works" section -->
+      <div class="main">
+        <div class="main-description">
+          <div class="empty"></div>
+          <ul>
+            <li>
+              <h3>- Material:</h3>
+              <span>Californian Cedar</span>
+            </li>
+            <li>
+              <h3>- Surface:</h3>
+              <span>Silky Smooth</span>
+            </li>
+            <li>
+              <h3>- Made by:</h3>
+              <span>Inspire9 Studio</span>
+            </li>
+            <li>
+              <h3>- Promotion:</h3>
+              <span>10% off till March 2020</span>
+            </li>
+          </ul>
+          <div class="empty"></div>
+        </div>
+
+        <div class="main-image">
+          <div class="product-image">
+            <img src="/images2/stool-teal.png" alt="stool product" />
+          </div>
+
+          <div class="product-name center column">
+            <p>ST2531A</p>
+            <h4 class="text-l">Ikea-looked-a-like Stool</h4>
+          </div>
+
+          <div class="product-options">o o o</div>
+        </div>
+
+        <div class="main-to-cart">
+          <div class="empty"></div>
+          <div class="to-cart-container center column">
+            <a class="round-btn round-btn-2x to-cart column">
+              <div class="center shadow-light">
+                <i class="fas fa-dolly fa-2x"></i>
+              </div>
+              <span class="dark-text">$ 160</span>
+            </a>
+            <a class="round-btn round-btn-2x share column">
+              <div class="center shadow-light">
+                <i class="fas fa-share-alt fa-2x"></i>
+              </div>
+              <span class="dark-text">Share</span>
+            </a>
+          </div>
+          <div class="empty"></div>
+        </div>
+      </div>
+
+      <!-- code a footer -->
+      <div class="footer shadow-reverse"></div>
     </div>
-
-    <!-- code a footer -->
-    <div class="footer"></div>
-
-  </div>
-
-</body>
+  </body>
 </html>

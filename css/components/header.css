@@ -1,0 +1,34 @@
+.header {
+  height: 14%;
+  border-bottom: 3px solid #e8e7e5cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #e8e7e5;
+}
+
+.logo {
+  width: 25%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #eaf8bf;
+  margin-left: 50px;
+}
+.logo .strong {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.nav-group {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cart-group {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}

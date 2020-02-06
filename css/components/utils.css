@@ -1,4 +1,32 @@
-
 .nav-group {
+}
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.text-l {
+  font-size: 22px;
+}
+
+.shadow-light {
+  box-shadow: 1px 1px 5px #014c6952;
+}
+
+.shadow {
+  box-shadow: 1px 1px 10px #014c69a1;
+}
+
+.shadow-reverse {
+  box-shadow: -1px 1px 10px #014c69a1;
+}
+
+.dark-text {
+  color: #365769;
 }

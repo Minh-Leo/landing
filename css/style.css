@@ -4,11 +4,11 @@
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
-@import url("components/buttons.css");
-@import url("components/utils.css");
-@import url("components/header.css");
-@import url("components/main.css");
-@import url("components/footer.css");
+@import url('components/buttons.css');
+@import url('components/utils.css');
+@import url('components/header.css');
+@import url('components/main.css');
+@import url('components/footer.css');
 
 /* Utilities */
 * {
@@ -18,17 +18,23 @@
 }
 
 body {
-  font-family: Open Sans;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   background-color: #006992;
-  padding: 40px 20px;
+  padding: 64px 128px;
 }
 
-h1, h2, h3, h4 {
-  font-family: Poppins;
+h1,
+h2,
+h3,
+h4 {
+  /* font-family: Poppins; */
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
+  /* display: block; */
 }
 
 li {
@@ -44,14 +50,22 @@ li {
 }
 
 .container {
-  width: 97vw;
+  width: 85vw;
   height: 90vh;
-  background-image: linear-gradient(#87aec2, #a5c9d9);
+  background-image: linear-gradient(#8ab0c5, #a9cadb);
+  box-shadow: 2px 2px 24px #333;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Custom design below! */
 
-/*#a5c9d9 light */
-/*#87aec2 darker*/
-
-
+/*#a9cadb light */
+/*#8ab0c5 darker*/
+/* #E8E7E5 */
+/* #ECA400 */
+/* #EAF8BF */
+/* #006992 */
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Ubuntu', sans-serif; */

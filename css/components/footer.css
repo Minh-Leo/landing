@@ -1,1 +1,5 @@
-footer.css
+.footer {
+  height: 6%;
+  border-top: 3px solid #e8e7e5cc;
+  z-index: 1;
+}
