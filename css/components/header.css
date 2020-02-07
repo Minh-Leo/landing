@@ -10,11 +10,11 @@
 .logo {
   width: 25%;
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 400;
-  color: #eaf8bf;
+  color: #e8e7e5;
   margin-left: 50px;
-  text-shadow: 2px 2px 10px #014c6977;
+  text-shadow: 2px 2px 7px #014c6999;
   position: relative;
 }
 .logo .strong {

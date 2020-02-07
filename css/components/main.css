@@ -1,6 +1,7 @@
 .main {
   height: 80%;
   width: 100%;
+  background-color: #a9cadb;
   display: flex;
   position: relative;
   z-index: 10;
@@ -37,6 +38,7 @@
   justify-content: space-around;
   align-items: flex-start;
   margin-left: 200px;
+  text-shadow: 1px 1px 8px #014c6966;
 }
 
 .main-description li {
@@ -127,7 +129,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  color: #e8e7e5;
+  color: #686868;
+  text-shadow: 1px 1px 8px #014c6966;
   z-index: 10;
 }
 
@@ -146,6 +149,7 @@
   margin: 30% 0px;
   width: 100%;
   text-align: center;
+  color: #006992;
 }
 .main-to-cart .details p {
   width: 100%;

@@ -9,10 +9,10 @@
 }
 
 .footer a {
-  color: #365769;
+  color: #ccc;
   transition: 0.4s;
 }
 
 .footer a:hover {
-  color: #e8e7e5;
+  color: #003246;
 }

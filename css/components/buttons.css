@@ -47,6 +47,8 @@
   width: 70px;
   height: 70px;
   background-color: transparent;
+  color: #e8e7e5;
+
   border: 2px solid #e8e7e5;
 }
 .round-btn-2x > span {
